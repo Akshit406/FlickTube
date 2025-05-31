@@ -1,0 +1,70 @@
+.feed {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-column-gap: 16px;
+    grid-row-gap: 30px;
+    margin-top: 15px;
+    text-align: left;
+}
+
+/* video thumbnail */
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+/* video title  */
+.card h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    margin: 5px 0;
+}
+
+/* channel name  */
+.card h3 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+    margin: 6px 0;
+}
+
+/* views time  */
+.card p {
+    font-size: 14px;
+}
+
+/* dark mode  */
+#dark .card h2 {
+    color: #f1f1f1;
+    transition: all 0.1 ease-in;
+}
+
+#dark .card h3 {
+    color: #aaaaaa;
+    transition: all 0.1 ease-in;
+}
+
+#dark .card p {
+    color: #aaaaaa;
+    transition: all 0.1 ease-in;
+}
+
+#dark .container {
+    background-color: #0f0f0f;
+    transition: all 0.1 ease-in;
+}
+
+#light .card {
+    color: rgb(0, 0, 0);
+    transition: all 0.1 ease-in;
+}
+
+#light .container {
+    background-color: #ffffff;
+    transition: all 0.1 ease-in;
+
+
+}
