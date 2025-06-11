@@ -1,8 +1,26 @@
-# React + Vite
+# YouTube Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple YouTube clone using React.js and the YouTube Data API v3 for video search and playback.
 
-Currently, two official plugins are available:
+## Features:
+* Watch trending videos
+* Browse popular content.
+* Basic responsive UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack:
+* React.js
+* YouTube Data API v3
+* CSS Modules, Axios
+
+## Setup:
+1.  Clone repo: git clone https://github.com/Akshit406/FlickTube && cd youtube-clone
+2.  Install: npm install (or yarn install)
+3.  API Key: Get a YouTube Data API v3 key from Google Cloud Console.
+4.  Create .env file: REACT_APP_YOUTUBE_API_KEY=YOUR_API_KEY_HERE
+5.  Run: npm start (or yarn start)
+
+## Usage:
+Search videos in the top bar or click thumbnails to watch.
+
+## Contributions:
+Welcome! Fork, make changes, and open a pull request.
