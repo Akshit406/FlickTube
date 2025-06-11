@@ -20,7 +20,7 @@ A simple YouTube clone using React.js and the YouTube Data API v3 for video sear
 5.  Run: npm start (or yarn start)
 
 ## Usage:
-Search videos in the top bar or click thumbnails to watch.
+Use the deployed url to watch youtube content
 
 ## Contributions:
 Welcome! Fork, make changes, and open a pull request.
